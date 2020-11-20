@@ -18,3 +18,11 @@ F:\BlogPost\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
 F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\Properties\serviceDependencies.json
 F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\Properties\serviceDependencies.local.json
 F:\BlogPost\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\ClientApp\angular.json
+F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\ClientApp\e2e\tsconfig.json
+F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\ClientApp\package-lock.json
+F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\ClientApp\package.json
+F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\ClientApp\tsconfig.app.json
+F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\ClientApp\tsconfig.json
+F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\ClientApp\tsconfig.spec.json
+F:\BlogPost\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\ClientApp\tslint.json
