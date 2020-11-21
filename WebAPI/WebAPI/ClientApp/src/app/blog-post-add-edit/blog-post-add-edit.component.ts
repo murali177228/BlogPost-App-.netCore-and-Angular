@@ -19,7 +19,7 @@ export class BlogPostAddEditComponent implements OnInit {
   errorMessage: any;
   existingBlogPost: BlogPost;
 
-  constructor(private blogPostService: BlogPostService, private formBuilder: FormBuilder, private avRoute: ActivatedRoute, private router: Router, private toastr: ToastrService) {
+  constructor(private blogPostService: BlogPostService,     private formBuilder: FormBuilder, private avRoute: ActivatedRoute, private router: Router, private toastr: ToastrService) {
     const idParam = 'id';
     this.actionType = 'Add';
     this.formTitle = 'title';
@@ -60,7 +60,7 @@ export class BlogPostAddEditComponent implements OnInit {
     if (this.actionType === 'Add') {
       let blogPost: BlogPost = {
         dt: new Date(),
-        creator: 'Martin',
+        creator: 'Murali',
         title: this.form.get(this.formTitle).value,
         body: this.form.get(this.formBody).value
       };
@@ -69,6 +69,7 @@ export class BlogPostAddEditComponent implements OnInit {
         .subscribe((data) => {
           this.router.navigate(['/blogpost', data.postId]);
         });
+        
     }
 
     if (this.actionType === 'Edit') {
